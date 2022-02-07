@@ -46,8 +46,7 @@ function loadCookie(){
             var r = num[1];
         }
     }
-    var numRajoles = (r/n*m).toFixed();
+    var numRajoles = (n*m/r).toFixed();
     Math.ceil(numRajoles);
     console.log("Num rajoles: "+numRajoles);
-    //console.log(num[0].trim()+" "+num[1])
 }
